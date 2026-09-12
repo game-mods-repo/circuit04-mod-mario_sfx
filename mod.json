@@ -1,0 +1,132 @@
+{
+    "id": "mario_sfx",
+    "name": "Super Mario 8-Bit SFX Pack",
+    "version": "1.0.0",
+    "author": "Nintendo / Circuit 04 Community",
+    "description": "Аутентичный звуковой пак Super Mario (NES Ricoh 2A03 APU). Полная замена интерфейса, шагов по грунту, ударов, шлюзов, выстрелов порталгана, звона монет и 8-битного саундтрека.",
+    "category": "sounds",
+    "tags": [
+        "sound",
+        "audio",
+        "mario",
+        "chiptune",
+        "8bit",
+        "retro",
+        "nes"
+    ],
+    "icon": "icon.png",
+    "is_enabled": true,
+    "is_official": true,
+    "downloads_count": 340,
+    "rating": 5.0,
+    "sounds": {
+        "ui/audio/buttonclick.wav": {
+            "file": "sounds/mario_menu_blip.wav",
+            "volume_db": -2.0,
+            "pitch_scale": 1.0,
+            "original_target": "ui/audio/buttonclick.wav"
+        },
+        "ui/audio/buttonclickrelease.wav": {
+            "file": "sounds/mario_menu_confirm.wav",
+            "volume_db": -2.0,
+            "pitch_scale": 1.0,
+            "original_target": "ui/audio/buttonclickrelease.wav"
+        },
+        "ui/audio/buttonrollover.wav": {
+            "file": "sounds/mario_menu_blip.wav",
+            "volume_db": -4.0,
+            "pitch_scale": 1.0,
+            "original_target": "ui/audio/buttonrollover.wav"
+        },
+        "ui/audio/warning.wav": {
+            "file": "sounds/mario_warning_hurry.wav",
+            "volume_db": -1.0,
+            "pitch_scale": 1.0,
+            "original_target": "ui/audio/warning.wav"
+        },
+        "стартовые асеты/audio/player/Player_player_footsteps_dirt1.wav": {
+            "file": "sounds/mario_step1.wav",
+            "volume_db": -3.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/player/Player_player_footsteps_dirt1.wav"
+        },
+        "стартовые асеты/audio/player/Player_player_footsteps_dirt2.wav": {
+            "file": "sounds/mario_step2.wav",
+            "volume_db": -3.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/player/Player_player_footsteps_dirt2.wav"
+        },
+        "стартовые асеты/audio/player/Player_player_footsteps_dirt3.wav": {
+            "file": "sounds/mario_step3.wav",
+            "volume_db": -3.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/player/Player_player_footsteps_dirt3.wav"
+        },
+        "стартовые асеты/audio/player/Player_player_footsteps_dirt4.wav": {
+            "file": "sounds/mario_step4.wav",
+            "volume_db": -3.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/player/Player_player_footsteps_dirt4.wav"
+        },
+        "стартовые асеты/audio/player/Player_player_pl_fallpain1.wav": {
+            "file": "sounds/mario_land_bump.wav",
+            "volume_db": 0.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/player/Player_player_pl_fallpain1.wav"
+        },
+        "стартовые асеты/audio/weapons/Player_weapons_gauss_fire1.wav": {
+            "file": "sounds/mario_fireball.wav",
+            "volume_db": 0.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/weapons/Player_weapons_gauss_fire1.wav"
+        },
+        "стартовые асеты/audio/weapons/Player_weapons_irifle_irifle_fire2.wav": {
+            "file": "sounds/mario_pipe_warp.wav",
+            "volume_db": 0.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/weapons/Player_weapons_irifle_irifle_fire2.wav"
+        },
+        "стартовые асеты/audio/items/ammo_pickup.wav": {
+            "file": "sounds/mario_coin_ding.wav",
+            "volume_db": 0.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/items/ammo_pickup.wav"
+        },
+        "стартовые асеты/audio/items/battery_pickup.wav": {
+            "file": "sounds/mario_powerup_mushroom.wav",
+            "volume_db": 0.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/items/battery_pickup.wav"
+        },
+        "стартовые асеты/audio/items/flashlight1.wav": {
+            "file": "sounds/mario_pause.wav",
+            "volume_db": 0.0,
+            "pitch_scale": 1.0,
+            "original_target": "стартовые асеты/audio/items/flashlight1.wav"
+        },
+        "prefabs/door/sounds/Player_doors_doormove3.wav": {
+            "file": "sounds/mario_door_pipe_move.wav",
+            "volume_db": 0.0,
+            "pitch_scale": 1.0,
+            "original_target": "prefabs/door/sounds/Player_doors_doormove3.wav"
+        },
+        "prefabs/door/sounds/door_close_slam.wav": {
+            "file": "sounds/mario_door_close_slam.wav",
+            "volume_db": 0.0,
+            "pitch_scale": 1.0,
+            "original_target": "prefabs/door/sounds/door_close_slam.wav"
+        },
+        "music/vinyl_space_guitar.wav": {
+            "file": "sounds/mario_overworld_theme.wav",
+            "volume_db": -2.0,
+            "pitch_scale": 1.0,
+            "original_target": "music/vinyl_space_guitar.wav"
+        },
+        "music/cosmic_horizon.ogg": {
+            "file": "sounds/mario_underground_theme.wav",
+            "volume_db": -2.0,
+            "pitch_scale": 1.0,
+            "original_target": "music/cosmic_horizon.ogg"
+        }
+    }
+}
